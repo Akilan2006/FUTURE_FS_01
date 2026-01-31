@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex / CS Student & Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">AK.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="hero">
+        <div class="hero-content">
+            <span class="greeting">Hello, I'm</span>
+            <h1 class="name">Akilan</h1>
+            <h2 class="role">Computer Science Student <span class="highlight">& Creative Developer</span></h2>
+            <p class="bio">
+                Passionate about building scalable software, algorithms, and intuitive user experiences. 
+                Always learning, creating, and pushing the boundaries of code.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="glow-circle"></div>
+            <!-- Placeholder for 3D element or Image -->
+            <div class="code-block">
+                <pre><code>
+class Developer:
+    def __init__(self):
+        self.name = "Akilan"
+        self.passion = ["Code", "AI", "Web"]
+    
+    def create(self):
+        return "Awesome Stuff"
+                </code></pre>
+            </div>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Technical <span class="highlight">Skills</span></h2>
+        <div class="skills-container">
+            <!-- Languages -->
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="skill-grid">
+                    <div class="skill-card"><span class="icon">🐍</span> Python</div>
+                    <div class="skill-card"><span class="icon">☕</span> Java</div>
+                    <div class="skill-card"><span class="icon">💻</span> C++</div>
+                    <div class="skill-card"><span class="icon">🌐</span> JavaScript/TS</div>
+                </div>
+            </div>
+            <!-- Web Technologies -->
+            <div class="skill-category">
+                <h3>Web Technologies</h3>
+                <div class="skill-grid">
+                    <div class="skill-card"><span class="icon">⚛️</span> React</div>
+                    <div class="skill-card"><span class="icon">🎨</span> CSS3/Tailwind</div>
+                    <div class="skill-card"><span class="icon">⚡</span> Node.js</div>
+                    <div class="skill-card"><span class="icon">🔥</span> Firebase</div>
+                </div>
+            </div>
+            <!-- Tools -->
+            <div class="skill-category">
+                <h3>Tools & Platforms</h3>
+                <div class="skill-grid">
+                    <div class="skill-card"><span class="icon">🐙</span> Git/GitHub</div>
+                    <div class="skill-card"><span class="icon">🐳</span> Docker</div>
+                    <div class="skill-card"><span class="icon">🐧</span> Linux</div>
+                    <div class="skill-card"><span class="icon">☁️</span> AWS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(45deg, #3a1c71, #d76d77);"></div>
+                <div class="project-info">
+                    <h3>AI Image Generator</h3>
+                    <p>A web app using Stable Diffusion API to generate art from text prompts.</p>
+                    <div class="tech-stack">
+                        <span>React</span><span>Python</span><span>API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#">Code</a>
+                        <a href="#">Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(45deg, #1f4037, #99f2c8);"></div>
+                <div class="project-info">
+                    <h3>E-Commerce Dashboard</h3>
+                    <p>Full-stack admin panel for managing products and analyzing sales data.</p>
+                    <div class="tech-stack">
+                        <span>Node.js</span><span>MongoDB</span><span>Express</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#">Code</a>
+                        <a href="#">Demo</a>
+                    </div>
+                </div>
+            </div>
+             <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(45deg, #000428, #004e92);"></div>
+                <div class="project-info">
+                    <h3>Sorting Visualizer</h3>
+                    <p>Interactive visualization of sorting algorithms like Merge Sort and Quick Sort.</p>
+                    <div class="tech-stack">
+                        <span>JavaScript</span><span>HTML/CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#">Code</a>
+                        <a href="#">Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <h2 class="section-title">Certifications</h2>
+        <div class="cert-list">
+            <div class="cert-item">
+                <div class="cert-date">2025</div>
+                <div class="cert-content">
+                    <h3>AWS Certified Cloud Practitioner</h3>
+                    <p>Amazon Web Services</p>
+                </div>
+            </div>
+             <div class="cert-item">
+                <div class="cert-date">2024</div>
+                <div class="cert-content">
+                    <h3>Professional Data Engineer</h3>
+                    <p>Google Cloud</p>
+                </div>
+            </div>
+             <div class="cert-item">
+                <div class="cert-date">2024</div>
+                <div class="cert-content">
+                    <h3>Front-End Web Development Bootcamp</h3>
+                    <p>Udemy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Languages Section -->
+     <section id="languages" class="section">
+        <h2 class="section-title">Languages Known</h2>
+        <div class="languages-flex">
+            <div class="lang-pill">English <span class="level">Fluent</span></div>
+            <div class="lang-pill">Tamil <span class="level">Native</span></div>
+            <div class="lang-pill">French <span class="level">Intermediate</span></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+        <p class="contact-sub">Have a project in mind or just want to chat?</p>
+        <a href="mailto:email@example.com" class="btn primary big-btn">Say Hello 👋</a>
+        
+        <div class="social-links">
+            <a href="#" class="social-icon">GitHub</a>
+            <a href="#" class="social-icon">LinkedIn</a>
+            <a href="#" class="social-icon">Twitter</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Akilan. Built with code & coffee.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
